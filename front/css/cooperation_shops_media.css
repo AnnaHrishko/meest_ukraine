@@ -58,6 +58,9 @@
     width: calc(100% + 30px);
     margin-left: -15px;
   }
+  .section-with-form .part-with-form .after-img-consultation-form {
+    display: none;
+  }
   .section-with-form .text-part {
     padding-left: 15px;
     width: 100%;

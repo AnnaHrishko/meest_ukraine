@@ -81,6 +81,11 @@
         background-color: #fff;
         width: calc(100% + 30px);
         margin-left: -15px;
+        .part-with-form{
+            .after-img-consultation-form{
+                display: none;
+            }
+        }
         .text-part {
            padding-left: 15px;
            width: 100%;
