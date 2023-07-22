@@ -1,5 +1,5 @@
 @media (max-width: 1400px) {
-  .section-with-form .consultation-form {
+  .section-with-form .part-with-form {
     width: 45%;
   }
   .sec-with-img .text-part {
@@ -15,18 +15,18 @@
   }
 }
 @media (max-width: 1250px) {
-  .section-with-form .consultation-form {
+  .section-with-form .part-with-form {
     width: 47%;
   }
-  .section-with-form .consultation-form .flex-input {
+  .section-with-form .part-with-form .consultation-form .flex-input {
     display: block;
   }
-  .section-with-form .consultation-form .flex-input .input-row {
+  .section-with-form .part-with-form .consultation-form .flex-input .input-row {
     width: 100%;
     margin-bottom: 15px;
     display: block;
   }
-  .section-with-form .consultation-form .flex-input .input-row:nth-child(odd) {
+  .section-with-form .part-with-form .consultation-form .flex-input .input-row:nth-child(odd) {
     margin-right: 0;
   }
 }
@@ -34,15 +34,8 @@
   .solution-wrapper .solution-row {
     width: calc(50% - 22px);
   }
-  .section-with-form .consultation-form {
+  .section-with-form .part-with-form {
     width: 45%;
-  }
-  .del-opt-cards__row {
-    width: calc(50% - 20px);
-  }
-  .main-service-wrapper .flex-card {
-    width: calc(65% - 30px);
-    margin-left: 30px;
   }
   .sec-with-img .heading {
     margin-bottom: 20px;
@@ -53,26 +46,6 @@
   .condition-col .condition-row .number {
     width: 35px;
     height: 35px;
-  }
-  .payment-card-flex {
-    flex-flow: row;
-    flex-wrap: wrap;
-    align-items: unset;
-  }
-  .payment-card-flex .payment-card {
-    width: calc(50% - 20px);
-    margin-bottom: 20px;
-  }
-  .download_apps {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .download_apps img {
-    width: 60%;
-  }
-  .document-wrapper {
-    width: 75%;
   }
 }
 @media (max-width: 991px) {
@@ -92,6 +65,10 @@
   .section-with-form .text-part .condition-row p br {
     display: none;
   }
+  .section-with-form .part-with-form {
+    width: 100%;
+    margin-top: 0;
+  }
   .section-with-form .consultation-form {
     width: 100%;
     margin-top: 0;
@@ -102,9 +79,6 @@
   .condition-col .condition-row p {
     font-size: 13px;
     line-height: 20px;
-  }
-  .download_apps img {
-    width: 80%;
   }
 }
 @media (max-width: 768px) {
@@ -188,61 +162,6 @@
   .section-with-form .consultation-form:after {
     display: none;
   }
-  .main-service-wrapper {
-    display: block;
-    padding: 40px 0 30px;
-  }
-  .main-service-wrapper .text-part {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  .main-service-wrapper .text-part .heading {
-    margin-bottom: 10px;
-  }
-  .main-service-wrapper .flex-card {
-    display: block;
-    width: 100%;
-    margin-left: 0;
-  }
-  .main-service-wrapper .flex-card .info-card {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .main-service-wrapper .flex-card .info-card:last-of-type {
-    margin-bottom: 0;
-  }
-  .del-opt-cards {
-    display: block;
-    width: 100%;
-    margin-left: 0;
-  }
-  .del-opt-cards__row {
-    width: 100%;
-    margin-left: 0;
-    margin-bottom: 10px;
-    padding: 20px 25px 25px 25px;
-  }
-  .del-opt-cards__row .title {
-    font-size: 15px;
-    letter-spacing: 0.3px;
-  }
-  .del-opt-cards__row .map {
-    height: 150px;
-  }
-  .del-opt-cards__row .map .point {
-    width: 85px;
-    height: 85px;
-  }
-  .del-opt-cards__row .map .road {
-    width: 89px;
-    height: 48px;
-  }
-  .delivery-options-wrapper {
-    margin-bottom: 35px;
-  }
-  .delivery-options-wrapper .heading {
-    margin-bottom: 20px;
-  }
   .sec-with-img {
     display: block;
   }
@@ -267,64 +186,9 @@
   .sec-with-img .text-part .condition-col .condition-row:last-of-type {
     margin-bottom: 0;
   }
-  .payment-card-flex .payment-card {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 15px 20px 25px;
-  }
-  .payment-card-flex .payment-card .info .decr {
-    width: 100%;
-    margin-bottom: 0;
-  }
-  .payment-card-flex .payment-card .info .decr br {
-    display: none;
-  }
-  .flex_download_apps {
-    margin-top: 20px;
-  }
-  .download_apps img {
-    width: 50%;
-  }
-  .payment-sec {
-    padding: 30px 0;
-  }
-  .payment-sec__heading {
-    font-size: 20px;
-  }
-  .document-wrapper {
-    padding: 30px 0;
-    width: 100%;
-  }
-  .document-wrapper__heading {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
-  .document-link {
-    padding: 18px 17px 18px 20px;
-    margin-bottom: 10px;
-  }
-  .document-link img {
-    width: 18px;
-    height: 18px;
-  }
-  .document-link h2 {
-    font-size: 15px;
-  }
 }
 @media (max-width: 550px) {
   .info-wrapper .info-card {
     width: 80%;
-  }
-  .del-opt-cards__row .title {
-    font-size: 13px;
-    letter-spacing: 0.3px;
-  }
-  .download_apps img {
-    width: 70%;
-  }
-}
-@media (max-width: 350px) {
-  .download_apps img {
-    width: 90%;
   }
 }

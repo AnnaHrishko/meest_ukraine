@@ -93,6 +93,9 @@
   .navigations-menu-page li:after {
     top: 143%;
   }
+  .navigations-menu-page li.active:after {
+    top: 143%;
+  }
   .navigations-menu-page li a {
     font-size: 13px;
     line-height: 160%;

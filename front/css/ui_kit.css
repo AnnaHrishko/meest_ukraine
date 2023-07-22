@@ -269,6 +269,16 @@ body {
   height: 2px;
   background: #2361A9;
 }
+.navigations-menu-page li.active:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 150%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #2361A9;
+}
 .navigations-menu-page li a {
   font-weight: 700;
   font-size: 17px;
@@ -278,20 +288,13 @@ body {
   text-decoration: none;
 }
 
-.section-cooperation {
-  display: none;
-}
-.section-cooperation.wrap1 {
-  display: block;
-}
-
 .error {
   font-size: 12px;
   color: red;
   display: block;
 }
 
-#phone-error {
+#phone-number-error {
   position: absolute;
   left: 0;
   top: 100%;

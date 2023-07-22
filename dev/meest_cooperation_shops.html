@@ -7,10 +7,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/ui_kit.css">
     <link rel="stylesheet" href="css/cooperation_shops.css">
+    <link rel="stylesheet" href="css/main_service.css">
+    <link rel="stylesheet" href="css/payment.css">
+    <link rel="stylesheet" href="css/documents.css">
+    <link rel="stylesheet" href="css/main_service_media.css">
+    <link rel="stylesheet" href="css/payment_media.css">
+    <link rel="stylesheet" href="css/documents_media.css">
     <link rel="stylesheet" href="css/ui_kit_media.css">
     <link rel="stylesheet" href="css/cooperation_shops_media.css">
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/css/intlTelInput.css">
 </head>
 <body>
     <div class="meest-cooperation top-wrap bcg-light-blue bb">
@@ -33,17 +39,17 @@
                         <img src="img/meest_cooperation_img_main.png" alt="">
                     </div>
                     <ul class="navigations-menu-page">
-                        <li class="" menu-tag="1">
-                            <a href="">ДЛЯ ПОЧАТКУ</a>
+                        <li class="active" menu-tag="1">
+                            <a href="meest_cooperation_shops.html">ДЛЯ ПОЧАТКУ</a>
                         </li>
                         <li class="" menu-tag="2">
-                            <a href="">Основні послуги </a>
+                            <a href="meest_main_service.html">Основні послуги </a>
                         </li>
                         <li class="" menu-tag="3">
-                            <a href="">Оплата</a>
+                            <a href="meest_payment.html">Оплата</a>
                         </li>
                         <li class="" menu-tag="4">
-                            <a href="">Документи</a>
+                            <a href="meest_documents.html">Документи</a>
                         </li>
                     </ul>
                 </div>
@@ -142,6 +148,7 @@
                             </div>
                         </div>
                     </div>
+                    <div class="part-with-form">
                     <div class="consultation-form">
                         <h3 class="heading-form">Для швидкої консультації заповніть анкету</h3>
                         <form action="" class="form-for-consultation">
@@ -158,7 +165,7 @@
                             <div class="flex-input">
                                 <label class="input-row phone-input">
                                     <span class="name-input">Телефон*</span>
-                                    <input type="text" class="phone" placeholder="" name="phone" autocomplete="off">
+                                    <input type="text" class="phone" placeholder="" name="phone-number" autocomplete="off" id="phone-number">
                                 </label>
                                 <label class="input-row">
                                     <span class="name-input">E-mail</span>
@@ -194,254 +201,19 @@
                             <button class="blue-button">відправити відгук</button>
                         </form>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="section-cooperation wrap2">
-        <div class="container">
-            <div class="main-service-wrapper">
-                <div class="text-part">
-                    <h2 class="heading">ОСНОВНІ ПОСЛУГИ</h2>
-                    <p class="descr">Основні послуги забезпечують організацію доставки відправлення в межах території України та визначають спосіб приймання (забору) відправлення та спосіб його доставки одержувачу</p>
-                </div>
-                <div class="flex-card">
-                    <div class="info-card">
-                        <img class="image" src="img/img_info_wrapper.svg" alt="">
-                        <h3>Доставка посилок <br> та документів</h3>
+                    <div class="after-img-consultation-form">
+                        <img src="img/before-consultation-form.png" alt="">
                     </div>
-                    <div class="info-card">
-                        <img class="image" src="img/img_info_wrapper.svg" alt="">
-                        <h3>Доставка вантажів <br> (коробочний формат)</h3>
                     </div>
-                </div>
-            </div>
-            <div class="delivery-options-wrapper">
-                <h2 class="heading">ДЛЯ КЛІЄНТІВ ПРОПОНУЮТЬСЯ <br> НАСТУПНІ ВАРІАНТИ ДОСТАВКИ</h2>
-                <div class="del-opt-cards">
-                    <div class="del-opt-cards__row">
-                        <div class="map">
-                            <img class="point point2" src="img/point1.png" alt="">
-                            <img class="road" src="img/road.svg" alt="">
-                            <img class="point point1" src="img/point1.png" alt="">
-                        </div>
-                        <h3 class="title">Адреса ←→ Адреса</h3>
-                    </div>
-                    <div class="del-opt-cards__row">
-                        <div class="map">
-                            <img class="point point2" src="img/point1.png" alt="">
-                            <img class="road" src="img/road.svg" alt="">
-                            <img class="point point1" src="img/department.svg" alt="">
-                        </div>
-                        <h3 class="title">Адреса ←→ Відділення</h3>
-                    </div>
-                    <div class="del-opt-cards__row">
-                        <div class="map">
-                            <img class="point point2" src="img/department.svg" alt="">
-                            <img class="road" src="img/road.svg" alt="">
-                            <img class="point point1" src="img/department.svg" alt="">
-                        </div>
-                        <h3 class="title">Відділення ←→ Відділення</h3>
-                    </div>
-                    <div class="del-opt-cards__row">
-                        <div class="map">
-                            <img class="point point2" src="img/department.svg" alt="">
-                            <img class="road" src="img/road.svg" alt="">
-                            <img class="point point1" src="img/post_office.svg" alt="">
-                        </div>
-                        <h3 class="title">Відділення ←→ Поштомат</h3>
-                    </div>
-                    <div class="del-opt-cards__row">
-                        <div class="map">
-                            <img class="point point2" src="img/post_office.svg" alt="">
-                            <img class="road" src="img/road.svg" alt="">
-                            <img class="point point1" src="img/post_office.svg" alt="">
-                        </div>
-                        <h3 class="title">Поштомат ←→ Поштомат</h3>
-                    </div>
-                    <div class="del-opt-cards__row">
-                        <div class="map">
-                            <img class="point point2" src="img/post_office.svg" alt="">
-                            <img class="road" src="img/road.svg" alt="">
-                            <img class="point point1" src="img/point1.png" alt="">
-                        </div>
-                        <h3 class="title">Поштомат ←→ Адреса</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bcg-light-blue">
-            <div class="sec-with-img">
-                <div class="text-part">
-                    <h2 class="heading">КОЖНА ТЕХНОЛОГІЯ ДОСТАВКИ <br> ВКЛЮЧАЄ В СЕБЕ НАСТУПНІ СЕРВІСИ</h2>
-                    <div class="condition-col">
-                        <div class="condition-row">
-                            <div class="number">
-                                <span><img src="img/arrow-white.svg" alt=""></span>
-                            </div>
-                            <p>Безкоштовне зберігання протягом 5 днів</p>
-                        </div>
-                        <div class="condition-row">
-                            <div class="number">
-                                <span><img src="img/arrow-white.svg" alt=""></span>
-                            </div>
-                            <p>Інформування про прибуття (надається як Відправнику, так і Одержувачу відправлення)</p>
-                        </div>
-                        <div class="condition-row">
-                            <div class="number">
-                                <span><img src="img/arrow-white.svg" alt=""></span>
-                            </div>
-                            <p>Можливість замовити кур’єрську доставку відправлення</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-mobile">
-                    <img src="img/sec_witn_img.png" alt="">
-                </div>
-            </div> 
-        </div>
-    </div>
-    <div class="section-cooperation wrap3">
-        <div class="container">
-            <div class="payment-sec">
-                <h2 class="payment-sec__heading">Оплата онлайн</h2>
-                <div class="payment-card-flex">
-                    <div class="payment-card">
-                        <div class="top">
-                            <div class="payment-method">
-                                <img class="paym_logo" src="img/privat_bank.png" alt="">
-                                <img class="paym_logo" src="img/p_bank.png" alt="">
-                            </div>
-                            <div class="way-row">
-                                <span class="number-card">1.</span>
-                                <span class="text">Спосіб</span>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <p class="decr">Онлайн на сайті <a href="#">ua.meest.com</a> через сервіс ПриватБанк або portmone.com використовуючи функцію Оплата онлайн</p>
-                        </div>
-                    </div>
-                    <div class="payment-card">
-                        <div class="top">
-                            <div class="payment-method">
-                                <img class="geo" src="img/sms_img.svg" alt="">
-                            </div>
-                            <div class="way-row">
-                                <span class="number-card">2.</span>
-                                <span class="text">Спосіб</span>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <p class="decr">За активним <br> посиланням в SMS</p>
-                        </div>
-                    </div>
-                    <div class="payment-card">
-                        <div class="top">
-                            <div class="payment-method">
-                                <img class="geo" src="img/laptop_img.svg" alt="">
-                            </div>
-                            <div class="way-row">
-                                <span class="number-card">3.</span>
-                                <span class="text">Спосіб</span>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <p class="decr">Через <br> інтернет-банкінг/клієнт-банк</p>
-                        </div>
-                    </div>
-                    <div class="payment-card">
-                        <div class="top">
-                            <div class="payment-method">
-                                <img class="geo" src="img/qr_img.svg" alt="">
-                            </div>
-                            <div class="way-row">
-                                <span class="number-card">4.</span>
-                                <span class="text">Спосіб</span>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <p class="decr">Через мобільний додаток <br> Meest ПОШТА</p>
-                            <div class="flex_download_apps">
-                                <a href="" class="download_apps">
-                                    <img src="img/app_store.png" alt="">
-                                </a>
-                                <a href="" class="download_apps">
-                                    <img src="img/google_play.png" alt="">
-                                </a>
-                                <a href="" class="download_apps">
-                                    <img src="img/app_gallery.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bcg-light-blue">
-            <div class="sec-with-img sec-with-img2">
-                <div class="text-part">
-                    <h2 class="heading">БЕЗГОТІВКОВІ <br> РОЗРАХУНКИ З MEEST</h2>
-                    <div class="condition-col">
-                        <div class="condition-row">
-                            <div class="number">
-                                <span><img src="img/arrow-white.svg" alt=""></span>
-                            </div>
-                            <p>Рахунок надається клієнту, з яким підписаний договір</p>
-                        </div>
-                        <div class="condition-row">
-                            <div class="number">
-                                <span><img src="img/arrow-white.svg" alt=""></span>
-                            </div>
-                            <p>Готує рахунок персональний менеджер</p>
-                        </div>
-                        <div class="condition-row">
-                            <div class="number">
-                                <span><img src="img/arrow-white.svg" alt=""></span>
-                            </div>
-                            <p>Надаємо комплект: рахунок-фактура, акт виконаних <br> робіт, податкову накладну</p>
-                        </div>
-                        <div class="condition-row">
-                            <div class="number">
-                                <span><img src="img/arrow-white.svg" alt=""></span>
-                            </div>
-                            <p>Термін оплати – згідно з умовами договору</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="img-mobile">
-                    <img src="img/sec_witn_img2.png" alt="">
-                </div>
-            </div> 
-        </div>
-    </div>
-    <div class="section-cooperation wrap4">
-        <div class="container">
-            <div class="document-wrapper">
-                <h2 class="document-wrapper__heading">Документи</h2>
-                <div class="document-col">
-                    <a href="#" target="_blank" class="document-link">
-                        <h2>Умови надання послуг</h2>
-                        <img src="img/link_document.svg" alt="">
-                    </a>
-                    <a href="#" target="_blank" class="document-link">
-                        <h2>Правила пакування</h2>
-                        <img src="img/link_document.svg" alt="">
-                    </a>
-                    <a href="#" target="_blank" class="document-link">
-                        <h2>Oпис АПІ</h2>
-                        <img src="img/link_document.svg" alt="">
-                    </a>
-                    <a href="#" target="_blank" class="document-link">
-                        <h2>Установчі документи</h2>
-                        <img src="img/link_document.svg" alt="">
-                    </a>
                 </div>
             </div>
         </div>
     </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/utils.js" integrity="sha512-XGZwM3U4PM6aH04G+9uL3qma2xu2feLpy5qX7WRlFu2Ti3tiRPoY9vuD9bz7wiTVJ139hdogEYBFZtevPPR1Yw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
 <script src="js/script.js"></script>
 </body>

@@ -109,6 +109,11 @@
         &:after{
             top: 143%;
         }
+        &.active{
+            &:after{
+                top: 143%; 
+            }
+        }
         a{
             font-size: 13px;
             line-height: 160%;
