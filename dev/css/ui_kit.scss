@@ -4,9 +4,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'Montserrat';
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #0061AF #EEF0F0;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0061AF;    /* color of the scroll thumb */
+    border-radius: 8px;       /* roundness of the scroll thumb */
+    border: 3px solid #EEF0F0;  /* creates padding around scroll thumb */
+}
+body::-webkit-scrollbar-track {
+    background: #EEF0F0;        /* color of the tracking area */
+}
+body::-webkit-scrollbar {
+    width: 130px;               /* width of the entire scrollbar */
 }
 
 .container{

@@ -13,6 +13,15 @@ if($(".select").length){
     });
 }
 
+$('.toggle-switch .page').click(function(){
+    let index = $(this).attr("switch-tag") 
+    $('.toggle-switch .page').removeClass('active')
+    $(this).addClass('active')
+    $(".instruction-descr").fadeOut(0)
+    $('.wrap' + index).fadeIn(200);
+    return false
+})
+
 // if($(".phone").length){
 // $('.phone').each(function(){
 //     window.intlTelInput(this, {
@@ -110,30 +119,6 @@ $(document).ready(function() {
 		let countryphone = iti.getNumber();
 		$('.form-for-consultation .all_phone').val(countryphone);
 	 });
-  
-	// jQuery.validator.addMethod("phone_validate", function(value, element) {
-	//   return this.optional(element) || /^[0-9)( -]+$/i.test(value);
-	// }, "Letters only please");
-  
-	// $(".form-for-consultation").validate({
-	// 	errorClass: 'error',
-	//     // errorPlacement: $.noop,
-	//   rules: {
-	// 	"phone-number": {
-	// 		required: true,
-	// 		phone_validate: true,
-	// 		minlength: 2,
-	// 		maxlength: 16,
-	// 	},
-	//   },
-    //   messages: {
-	// 	"phone-number": {
-	// 		required: "Required field",
-	// 		minlength: "Enter full phone number",
-	// 		maxlength: "",
-	// 	},
-	//   },
-	// });
 	}
   });
 
