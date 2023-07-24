@@ -453,6 +453,10 @@ body .select2-container--default .select2-search--dropdown .select2-search__fiel
     background-color: unset !important;
     border-right: 1px solid #D7D8D9;
 }
+.iti--separate-dial-code .iti__selected-dial-code {
+    margin-left: 5px!important;
+    font-size: 14px;
+}
   
 .iti--separate-dial-code.iti--show-flags .iti__selected-dial-code {
     font-weight: 500;
@@ -464,8 +468,8 @@ body .select2-container--default .select2-search--dropdown .select2-search__fiel
 }
   
 .iti__arrow {
-    margin-right: 10px;
-    margin-left: 15px !important;
+    // margin-right: 8px;
+    margin-left: 8px !important;
     width: 12px !important;
     height: 7px !important;
     background-image: url(../img/arrow_select.svg);
