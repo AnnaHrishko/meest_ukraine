@@ -20,12 +20,18 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #EEF0F0; /* creates padding around scroll thumb */
 }
 
-body::-webkit-scrollbar-track {
-  background: #EEF0F0; /* color of the tracking area */
+body::-webkit-scrollbar-corner {
+  background: #0061AF;
 }
 
-body::-webkit-scrollbar {
-  width: 130px; /* width of the entire scrollbar */
+.info-wrapper::-webkit-scrollbar-thumb {
+  background-color: #0061AF; /* color of the scroll thumb */
+  border-radius: 8px; /* roundness of the scroll thumb */
+  border: 3px solid #EEF0F0; /* creates padding around scroll thumb */
+}
+
+.info-wrapper ::-webkit-scrollbar-track {
+  background: #0061AF; /* color of the tracking area */
 }
 
 .container {
